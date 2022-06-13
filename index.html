@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <!-- header with h1 element -->
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div>
+        <ul class="history" id="history">
+
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Form and button to search city conditions-->
+            <div class="col-lg-3 col-md-12 col-sm-12">
+                <label for="city">Search for a City:</label>
+                <input type="text" placeholder="San Diego" class="city" id="city">
+                <button id="btn">Search</button>
+
+                    <!-- Div for search history -->
+                <div>
+                    <h2>search history:</h2>
+                    <ul class="search-history">
+                        <li>
+                            <button>City here</button>
+                        </li>
+                        <li>
+                            <button>City here</button>
+                        </li>
+                        <li>
+                            <button>City here</button>
+                        </li>
+                        <li>
+                            <button>City here</button>
+                        </li>
+                        <li>
+                            <button>City here</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Div for current day and conditions for selective city -->
+            <div class="rightSide col-sm-9">
+                <div class="current">
+                    
+                </div>
+
+                <!-- Div for 5-day Forecast -->
+                <div class="dayfor">
+                    <h2>5-day Forecast</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+.current {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.dayfor {
+    margin: 0;
+    text-align: center;
+}
